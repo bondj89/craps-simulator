@@ -10,10 +10,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.core.content.ContextCompat;
-import com.example.crapssimulator.R;
 import edu.cnm.deepdive.craps.model.Game.Roll;
 import edu.cnm.deepdive.craps.model.Game.Round;
 import edu.cnm.deepdive.craps.model.Game.State;
+import edu.cnm.deepdive.crapssimulator.R;
 
 public class RoundAdapter extends ArrayAdapter<Roll> {
 

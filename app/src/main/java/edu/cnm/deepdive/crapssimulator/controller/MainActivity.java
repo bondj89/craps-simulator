@@ -7,9 +7,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.crapssimulator.R;
 import edu.cnm.deepdive.craps.model.Game;
 import edu.cnm.deepdive.craps.model.Game.Round;
+import edu.cnm.deepdive.crapssimulator.R;
 import edu.cnm.deepdive.crapssimulator.view.RoundAdapter;
 import java.util.Random;
 
