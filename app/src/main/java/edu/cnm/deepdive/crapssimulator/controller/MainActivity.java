@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
     adapter.add(round);
     String winsLabel = getResources().getQuantityString(R.plurals.wins, wins);
     String playslabel = getResources().getQuantityString(R.plurals.plays, plays);
-    tally.setText(getString(R.string.tally_format, wins, plays, 100 * percentage, winsLabel, playslabel));
+    tally.setText(
+        getString(R.string.tally_format, wins, plays, 100 * percentage, winsLabel, playslabel));
   }
 
   private void resetGame() {
@@ -99,7 +100,8 @@ public class MainActivity extends AppCompatActivity {
           runOnUiThread(new Updater(round, wins, plays, percentage));
         }
       }
-      runOnUiThread(new Updater(game.play(), game.getWins(), game.getPlays(), game.getPercentage()));
+      runOnUiThread(
+          new Updater(game.play(), game.getWins(), game.getPlays(), game.getPercentage()));
       invalidateOptionsMenu();
     }
 
